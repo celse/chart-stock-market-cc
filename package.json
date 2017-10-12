@@ -1,0 +1,36 @@
+{
+  "name": "stock_market",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Chart the Stock Market",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celse/chart-stock-market-cc.git"
+  },
+  "keywords": [
+    "full",
+    "stack",
+    "Express",
+    "Node",
+    "javascript"
+  ],
+  "author": "celse Obou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celse/chart-stock-market-cc/issues"
+  },
+  "homepage": "https://github.com/celse/chart-stock-market-cc#readme",
+  "dependencies": {
+    "alphavantage-api": "^1.0.1",
+    "amcharts": "^3.14.5",
+    "body-parser": "^1.18.1",
+    "connect-flash-plus": "^0.2.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "jsonfile": "^4.0.0",
+    "yahoo-finance": "^0.3.3"
+  }
+}
